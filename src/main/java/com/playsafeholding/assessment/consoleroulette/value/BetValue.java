@@ -1,5 +1,9 @@
 package com.playsafeholding.assessment.consoleroulette.value;
 
+import lombok.*;
+
+@Data
+@NoArgsConstructor
 public class BetValue<T> {
 
     private T value;

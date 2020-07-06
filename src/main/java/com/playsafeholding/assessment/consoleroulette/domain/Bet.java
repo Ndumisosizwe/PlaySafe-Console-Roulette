@@ -1,10 +1,14 @@
 package com.playsafeholding.assessment.consoleroulette.domain;
 
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public abstract class Bet<T> {
 
     protected BigDecimal betAmount;
